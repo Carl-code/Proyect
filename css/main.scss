@@ -79,11 +79,11 @@ form {
 
 .header__logo {
   margin-left: 10vw;
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 
 .header__links {
-  justify-content: space-around;
+  flex-basis: 60%;
 
   nav {
     margin-right: 10vw;

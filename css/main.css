@@ -59,15 +59,17 @@ body {
   }
   .header__logo{
     margin-left: 10vw;
-    flex-basis: 50%;
+    flex-basis: 40%;
+    justify-content: left;
   }
   .header__links {
-    justify-content: space-around;
+    flex-basis: 60%;
+
   }
   .header__links nav {
     margin-right: 10vw;
-    flex-basis: 50%;
     display: flex;
+    justify-content: space-evenly;
   }
   .header__button {
     width: 190px;
