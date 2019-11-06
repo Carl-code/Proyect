@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!--Jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+      </script>
+    <title>Cuboxes</title>
+  </head>
+
+  <body>
+    <script>
+      $(document).ready(function () {
+        $("#show").click(function () {
+          $("#form").show();
+        });
+      });
+    </script>
+    <div class="form__contenedor">
+      <div class="form__contenedor--action">
+        <form id="form" action="">
+          <h2>Quiero ser Cuboxer</h2>
+          <h3>Llena el siguiente formulario y en breve un agente se pondrá en contacto.</h3>
+          <p>Email:</p>
+          <input type="text" class="field"> <br />
+          <p>Nombre:</p>
+          <input type="text" class="field"> <br />
+          <p>Teléfono:</p>
+          <input type="text" class="field"> <br />
+          <div class="button__container--form">
+            <button class="center-content">
+              Enviar solicitud
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img src="./img/logo.svg" alt="">
+        </div>
+        <div class="header__links">
+          <nav>
+            <div><a href="">Caracteristicas</a></div>
+            <div><a href="">Precios</a></div>
+            <div><a href="">Soporte</a></div>
+            <button class="header__button">Quiero ser Cuboxer</button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="general__container--main">
+        <section>
+          <div class="container">
+            <div class="container__text">
+              <div class="container__text--elements">
+                <h2>Todas tus Suscripciones en una sola Caja</h2>
+                <p>Administra todas tus suscripciones desde un solo lugar y paga solo un envío por todas.</p>
+              </div>
+              <button class="button__section">Quiero saber más</button>
+            </div>
+            <div class="container__image">
+              <div class="container__image--people">
+                <img src="./img/image2.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="container__cards">
+              <div class="container__cards--image">
+                <img class="container__time--card" src="./img/icon-time.svg" alt="">
+              </div>
+              <p>
+                <strong>Ahorra Tiempo</strong> al gestionar todas tus suscripciones en un solo lugar.Deja que el menu
+                simplificado de Cuboxes haga el trabajo por tí.
+              </p>
+            </div>
+            <div class="container__cards">
+              <div class="container__cards--image">
+                <img class="container__billing--card" src="./img/icon-billing.svg" alt="">
+              </div>
+              <p>
+                <strong>Un solo</strong> cargo al pagar en Cuboxes todas tus suscripciones se aplican en un solo cargo,
+                n
+                mas suscripciones duplicadas ni olvidadas.
+              </p>
+            </div>
+            <div class="container__cards">
+              <div class="container__cards--image">
+                <img class="container__shipping--card" src="./img/icon-shipping.svg" alt="">
+              </div>
+              <p>
+                <strong>Paga un</strong> solo envio al hacer tus suscripciones con Cuboxes, puedes hacer que todas te
+                lleguen al mismo tiempo, evitando pagar envios adicionales.
+              </p>
+            </div>
+          </div>
+          <div class="container__button">
+            <button id="show" class="container__btn--accion">Quiero aplicar para ser un Cuboxer</button>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="container__images">
+              <div class="container__image--happy">
+                <img src="./img/image.svg" alt="">
+              </div>
+            </div>
+            <div class="container__text">
+              <h2>Invierte tu tiempo en cosas más importantes</h2>
+              <p>Cuboxes agiliza la administración de tus recurrencias, haciendote una sola factura y un solo envio para
+                que no tengas que preocuparte por nada mas.</p>
+              <div class="container__btn--action">
+                <button class="container__btn--accion-down">Quiero ser Cuboxer</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer__logo">
+          <div class="footer__logo--image">
+            <img src="./img/logo-white.svg" alt="">
+          </div>
+        </div>
+        <hr>
+        <div class="footer__redes">
+          <div class="footer__redes--image">
+            <a href="https://www.facebook.com/icebergnueve"><img src="./img/facebook-f.svg" alt="">
+            </a>
+          </div>
+          <div class="footer__redes--image">
+            <a href="https://twitter.com/icebergnueve"><img src="/img/twitter.svg" alt="">
+            </a>
+          </div>
+          <div class="footer__redes--image">
+            <a href=""><img src="./img/slack-hash.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="footer__parrafo">
+          <a href="">
+            <p>Aviso de privacidad</p>
+          </a>
+          <a href="">
+            <p>Soporte</p>
+          </a>
+          <a href="">
+            <p>Terminos y condiciones</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
